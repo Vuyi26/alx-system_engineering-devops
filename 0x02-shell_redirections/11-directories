@@ -1,2 +1,2 @@
 #!/bin/bash
-count=$(find . -type d -not -path '*/\.*' -printf '.' | wc -c); echo $((count -2))
+count=$(find . -mindepth 1 -type d -not -path '*/\.*' | echo $((count - 2))
