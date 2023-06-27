@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s dotglob nullglob; count=0; for d in */; do count=$((count + 1)); done; echo $count
+count=$(find . -type d -not -path '*/\.*' -printf '.' | wc -c); echo $((count -2))
