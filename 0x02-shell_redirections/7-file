@@ -1,7 +1,2 @@
-#!/bin/bash/
-
-touch '*\\'"Best School"\\'*$?*****:)'
-
+#!/bin/bash
 echo "Best School" > '*\\'"Best School"\\'*$?*****:)'
-
-echo "File created successfully!"
