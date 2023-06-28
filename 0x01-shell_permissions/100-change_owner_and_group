@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -hr betty:alxSchool
+chown -R vincent:staff ./*
