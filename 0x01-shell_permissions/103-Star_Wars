@@ -1,2 +1,2 @@
 #!/bin/bash
-binet towel brokenlights nl
+telnet towel.blinkenlights.nl
