@@ -1,2 +1,2 @@
 #!/bin/bash
-ld .un
+echo "Effective username: $(whoami)"
